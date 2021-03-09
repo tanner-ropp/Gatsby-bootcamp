@@ -1,7 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby'
-import Footer from '../components/footer';
-import Header from '../components/Header';
+import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 
 function AboutPage(props) {
