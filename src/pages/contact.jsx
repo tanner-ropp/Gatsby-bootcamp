@@ -8,7 +8,7 @@ function ContactPage(props) {
             <ul>
                 <li>352-281-3027</li>
                 <li>tannerwr64@gmail.com</li>
-                <li><a href="https://linkedin.com/in/tannerroppuf/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://linkedin.com/in/tannerroppuf/" target="_blank" rel="noreferrer">LinkedIn</a></li>
             </ul>
         </Layout>
     );

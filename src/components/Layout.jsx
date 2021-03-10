@@ -2,12 +2,15 @@ import React from 'react';
 import Footer from './footer';
 import Header from './Header';
 import '../styles/index.scss';
+import * as layoutStyles from './layout.module.scss'
 
 function Layout(props) {
     return (
-        <div>
-            <Header/>
-            {props.children}
+        <div className={layoutStyles.container}>
+            <div className={layoutStyles.content}>
+                <Header/>
+                {props.children}
+            </div>
             <Footer/>
         </div>
     );
