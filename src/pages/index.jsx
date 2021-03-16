@@ -7,7 +7,7 @@ export default function Home() {
     <Layout>
       <h1>Hello.</h1>
       <h2>I'm Tanner, a JAM stack developer and musician graduating from the University of Florida.</h2>
-      <p>Need a better developer? <Link to="/contact">Contact <em>me.</em></Link></p>
+      <p>Need a better developer? <Link to="/contact">Contact me.</Link></p>
     </Layout>
   )
 }
